@@ -1,0 +1,35 @@
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+body {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  word-break: break-word;
+  font-family: "Epilogue", "Roboto", sans-serif;
+  margin: 0;
+
+  background: linear-gradient(
+    135deg,
+    #fafafa 0%,
+    #e7c0c7 40%,
+    #b76e79 100%
+  );
+  color: #1f1f1f;
+}
+
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
